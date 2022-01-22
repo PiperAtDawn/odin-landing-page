@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* General rules */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.section, header, footer {
+    display: flex;
+    justify-content: center;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer, .intro {
+    background-color: #1F2937;
+}
+
+/* Header */
+
+header {
+    color: #E5E7EB;
+    height: 64px;
+    padding: 0 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo-name {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+/* Intro */
+
+.intro {
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 480px;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.intro button, .sign-up button {
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
+}
+
+/* Info */
+
+.info {
+    height: 500px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 430px;
+}
+
+q {
+    font-style: italic;
+}
+
+/* Call to action */
+
+.call-to-action {
+    height: 360px;
+}
+
+.sign-up {
+    display: flex;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    color: #E5E7EB;
+}
+
+footer .container {
+    text-align: center;
+}
