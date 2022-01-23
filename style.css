@@ -32,6 +32,28 @@ header, footer, .intro {
     background-color: #1F2937;
 }
 
+.intro button, .sign-up button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #f9faf8;
+    margin-top: 0;
+}
+
+button {
+    width: 130px;
+    padding: 7px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 /* Header */
 
 header {
@@ -60,10 +82,21 @@ header a {
     color: #E5E7EB;
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
 .logo-name {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
 }
 
 /* Intro */
@@ -74,16 +107,35 @@ header a {
     height: 480px;
 }
 
-.intro h1 {
-    margin: 0;
-    font-size: 48px;
-    color: #f9faf8;
+.intro .container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
 
-.intro button, .sign-up button {
-    background-color: #3882F6;
-    border-radius: 10%;
-    color: white;
+.intro h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+}
+
+.intro-text {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-text span {
+    margin-bottom: 20px;
+}
+
+.intro-text button {
+    border-style: none; 
+}
+
+.intro-img {
+    height: 240px;
+    width: auto;
+    border-radius: 5%;
 }
 
 /* Info */
@@ -101,6 +153,12 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
+    width: 160px;
+}
+
+.info-card span {
+    text-align: center;
 }
 
 .info-img {
@@ -109,6 +167,11 @@ header a {
     border-radius: 10%;
     border-color: #3882F6;
     border-style: solid;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
 }
 
 /* Quote */
@@ -120,6 +183,15 @@ header a {
 
 q {
     font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote p {
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 200px;
 }
 
 /* Call to action */
@@ -130,6 +202,21 @@ q {
 
 .sign-up {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sign-up-text span {
+    color: #E5E7EB;
+}
+
+.sign-up button {
+    border-color: #f9faf8;
+    border-style: solid;
 }
 
 /* Footer */
@@ -140,5 +227,7 @@ footer {
 }
 
 footer .container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,3 +1,14 @@
 # odin-landing-page
 Landing page for The Odin Project
-d20 image by Christina Wert (https://pixabay.com/users/puelladocta-1900512/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2699387) from https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2699387
+
+Compass icon taken from https://www.freeiconspng.com/
+
+Roleplaying dice set photo by Ian Fajardo https://unsplash.com/photos/jYg-bmeMotE
+
+Six-sided dice photo by saine https://www.freeimages.com/photo/dice-2-1315397
+
+Treasure map photo by Nadjib BR https://unsplash.com/photos/51Ms-0PbCHo
+
+Dragon miniature photo by Clint Bustrillos https://unsplash.com/photos/X-A-LJVAhzk
+
+Masks photo by Llanydd Lloyd https://unsplash.com/photos/5kL77tAHTqQ
